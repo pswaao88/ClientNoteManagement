@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/icon_bg" />
+    <item>
+        <inset
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:insetBottom="10dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="18dp" />
+                <solid android:color="@color/icon_card" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="26dp"
+            android:insetTop="22dp"
+            android:insetRight="26dp"
+            android:insetBottom="22dp">
+            <layer-list>
+                <item>
+                    <shape android:shape="rectangle">
+                        <corners android:radius="8dp" />
+                        <stroke
+                            android:width="3dp"
+                            android:color="@android:color/white" />
+                        <solid android:color="@android:color/transparent" />
+                    </shape>
+                </item>
+                <item android:top="12dp" android:left="8dp" android:right="8dp">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="3dp" />
+                        <solid android:color="@android:color/white" />
+                    </shape>
+                </item>
+                <item android:top="22dp" android:left="8dp" android:right="24dp" android:bottom="28dp">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="2dp" />
+                        <solid android:color="@android:color/white" />
+                    </shape>
+                </item>
+                <item android:top="38dp" android:left="8dp" android:right="8dp" android:bottom="12dp">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="2dp" />
+                        <solid android:color="@android:color/white" />
+                    </shape>
+                </item>
+            </layer-list>
+        </inset>
+    </item>
+</layer-list>
